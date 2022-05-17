@@ -297,7 +297,7 @@
         start block digits 
  ===============================*/
 .digits {
-  margin-bottom: 100px;
+  margin: 100px auto;
   text-align: center;
 }
 
@@ -368,23 +368,59 @@
   margin: 0 auto;
   width: 80%;
 }
-
+.khan__autor{
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+}
+.khan__title{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0px 0px 50px;
+}
 .khan__quote {
   width: 790px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0px 0px 36px;
 }
-
+.khan__quote-author{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0px 0px 10px;
+}
+.khan__quote-author-subline{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0px 0px 68px;
+}
 .khan__book-container {
   /* position: relative; */
   display: flex;
+  margin: 0;
 }
 
 .khan__book-pic {
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 608px;
-  height: 620px;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  width: 620px;
+  height: 608px;
+  margin-right: 48px;
+  object-position: top;
+  object-fit: cover;
 }
-
+.khan__buy-link{
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+}
 /*==============================
         end block khan 
  ===============================*/
@@ -441,6 +477,30 @@
 
 /*==============================
         end block kaufman 
+ ===============================*/
+
+
+ /*==============================
+        start block resources
+ ===============================*/
+
+.resources{
+  margin: 100px auto 217px;
+  text-align: center;
+}
+.resources__logo-zone{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+.resources__logo{
+  width: 270px;
+  height: 38px;
+}
+ /*==============================
+        end block resources
  ===============================*/
 
 /*==============================
