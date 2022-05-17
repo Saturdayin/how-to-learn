@@ -1,11 +1,13 @@
 @keyframes rotation {
   from {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
+
   to {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -71,10 +73,12 @@
   text-decoration: none;
   color: #2F80ED;
 }
+
 .header__link:hover {
   opacity: 0.7;
   transition: .6s linear;
 }
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -94,7 +98,7 @@
   right: 0;
   background-color: #2f80ed;
   z-index: 0;
-  transform:rotate(-15deg);
+  transform: rotate(-15deg);
   animation: rotation 20s linear infinite;
 }
 
@@ -305,7 +309,7 @@
 
 }
 
-.feynman__link:hover{
+.feynman__link:hover {
   opacity: 0.7;
   transition: .3s linear;
 }
@@ -391,18 +395,21 @@
   margin: 0 auto;
   width: 80%;
 }
-.khan__autor{
+
+.khan__autor {
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
   margin: 0;
 }
-.khan__title{
+
+.khan__title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 700;
   margin: 0px 0px 50px;
 }
+
 .khan__quote {
   width: 790px;
   line-height: 34px;
@@ -410,22 +417,26 @@
   font-weight: normal;
   margin: 0px 0px 36px;
 }
-.khan__quote-author{
+
+.khan__quote-author {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
   margin: 0px 0px 10px;
 }
-.khan__quote-author-subline{
+
+.khan__quote-author-subline {
   line-height: 1.15;
   font-size: 24px;
   font-weight: normal;
   margin: 0px 0px 68px;
 }
+
 .khan__book-container {
-  /* position: relative; */
-  display: flex;
+
+  /* display: flex; */
   margin: 0;
+  line-height: 0;
 }
 
 .khan__book-pic {
@@ -437,16 +448,18 @@
   object-position: top;
   object-fit: cover;
 }
-.khan__buy-link{
+
+.khan__buy-link {
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
-  
+  display: inline-block;
+  vertical-align: top;
 }
 
-.khan__buy-link:hover{
+.khan__buy-link:hover {
   opacity: 0.7;
   transition: .3s linear;
 }
@@ -501,7 +514,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
-  transform:rotate(-15deg);
+  transform: rotate(-15deg);
   animation: rotation 20s linear infinite;
 }
 
@@ -513,15 +526,16 @@
  ===============================*/
 
 
- /*==============================
+/*==============================
         start block resources
  ===============================*/
 
-.resources{
+.resources {
   margin: 100px auto 217px;
   text-align: center;
 }
-.resources__logo-zone{
+
+.resources__logo-zone {
   margin-top: 80px;
   display: flex;
   justify-content: space-between;
@@ -529,15 +543,17 @@
   margin: 0 auto;
 }
 
-.resources__logo{
+.resources__logo {
   width: 270px;
   height: 38px;
 }
-.resources__logo:hover{
+
+.resources__logo:hover {
   opacity: 0.7;
   transition: .3s linear;
 }
- /*==============================
+
+/*==============================
         end block resources
  ===============================*/
 
@@ -602,7 +618,7 @@
 
 }
 
-.footer__column-link:hover{
+.footer__column-link:hover {
   opacity: 0.7;
   transition: .3s linear;
 }
