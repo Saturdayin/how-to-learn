@@ -1,0 +1,36 @@
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    padding: 60px 0 40px;
+    min-height: 250px;
+  }
+  
+  
+  .footer__column-heading {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .footer__column-links {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 16px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .footer__column-link {
+    text-decoration: none;
+    color: #fff;
+  
+  }
+  
+  .footer__column-link:hover {
+    opacity: 0.7;
+    transition: .3s linear;
+  }

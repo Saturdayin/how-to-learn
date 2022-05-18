@@ -1,0 +1,13 @@
+.video__iframes {
+    margin: 0px auto -60px;
+  
+  }
+  
+  .video__iframe {
+    margin-right: 20px;
+  }
+  
+  .video__iframe:last-child {
+    margin-right: 0px;
+  }
+  
