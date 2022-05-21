@@ -1,16 +1,4 @@
 .video__iframes {
-    margin: 0px auto -60px;
-  
-  }
-  
-  .video__iframe {
-    border: 0;
-    margin-right: 20px;
-    width: 516px;
-    height: 316px;
-  }
-  
-  .video__iframe:last-child {
-    margin-right: 0px;
-  }
-  
+  margin: 50px auto -60px;
+
+}

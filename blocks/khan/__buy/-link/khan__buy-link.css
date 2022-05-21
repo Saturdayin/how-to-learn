@@ -6,9 +6,10 @@
     text-decoration: none;
     display: inline-block;
     vertical-align: top;
-  }
-  
-  .khan__buy-link:hover {
-    opacity: 0.7;
     transition: .3s linear;
-  }
+}
+
+.khan__buy-link:hover {
+    opacity: 0.7;
+
+}
