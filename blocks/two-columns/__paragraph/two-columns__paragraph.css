@@ -1,6 +1,7 @@
 .two-columns__paragraph {
-    margin: 0px 0px 30px;
-  }
-  .two-columns__paragraph:last-child {
-    margin-bottom: 0px;
-  }
+  margin: 0px 0px 30px;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0px;
+}
